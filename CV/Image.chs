@@ -127,7 +127,7 @@ import Foreign.Concurrent
 import Foreign.Ptr
 import Control.Parallel.Strategies
 import Control.DeepSeq
-import Control.Lens
+import Control.Lens hiding (deep)
 
 import CV.Bindings.Error
 

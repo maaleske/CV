@@ -1,3 +1,4 @@
+{-# LANGUAGE GADTs, FlexibleContexts #-}
 module CV.Sampling where
 
 import CV.Image

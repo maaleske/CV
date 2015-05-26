@@ -33,7 +33,6 @@ import Data.Array.IArray
 
 import Foreign.C.Types
 import Foreign.Ptr
-import Foreign.Storable.Complex
 import System.IO.Unsafe
 
 unsafe8UC_RGBFromPtr :: (Int,Int) -> Ptr Word8 -> IO (Image RGB D8)

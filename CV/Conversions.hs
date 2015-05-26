@@ -22,7 +22,7 @@ module CV.Conversions (
     ,acquireImageSlow'
     ,acquireImageSlow8URGB'
     ) where
-import qualified Data.Orphans ()
+
 import Data.Complex as C
 
 import CV.Image
